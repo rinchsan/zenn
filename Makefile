@@ -1,9 +1,13 @@
 ARTICLE_TARGETS := article-tech article-idea
 
-.PHONY: $(ARTICLE_TARGETS)
-$(ARTICLE_TARGETS): article-%:
-	npx zenn new:article --published --type $* --emoji 🏂
+.PHONY: new
+new:
+	npx zenn new:article --type tech --emoji 🏂
 
 .PHONY: preview
 preview:
 	npx zenn preview
+
+.PHONY: upgrade
+upgrade:
+	npm install zenn-cli@latest
