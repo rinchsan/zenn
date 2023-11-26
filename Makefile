@@ -6,7 +6,7 @@ new:
 
 .PHONY: preview
 preview:
-	npx zenn preview
+	npx zenn preview --open
 
 .PHONY: upgrade
 upgrade:
