@@ -2,7 +2,7 @@ ARTICLE_TARGETS := article-tech article-idea
 
 .PHONY: new
 new:
-	npx zenn new:article --type tech --emoji 🏂
+	npx zenn new:article --type tech --emoji 🏂 --published true --publication-name team_soda --slug `date +%Y%m%d%H%M%S`
 
 .PHONY: preview
 preview:
