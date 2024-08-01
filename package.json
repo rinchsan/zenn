@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/rinchsan/zenn#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.150"
+    "zenn-cli": "^0.1.154"
   }
 }
